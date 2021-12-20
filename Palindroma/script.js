@@ -13,8 +13,10 @@ let invertedWord = revertedWord.join(''); //utilizzo il metodo .join() per riuni
 console.log(invertedWord)
 
 if(invertedWord == word){
-    console.log('La parola ' + word +' è una parola palindroma: ' + invertedWord)
+    console.log('La parola ' + word +' è una parola palindroma: ' + invertedWord);
+    document.writeln('La parola ' + word +' è una parola palindroma: ' + invertedWord);
 }else{
-    console.log('La parola ' + word +' NON è una parola palindroma: ' + invertedWord)
+    console.log('La parola ' + word +' NON è una parola palindroma: ' + invertedWord);
+    document.writeln('La parola ' + word +' NON è una parola palindroma: ' + invertedWord);
 }
 

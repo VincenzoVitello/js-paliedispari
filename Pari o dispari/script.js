@@ -20,5 +20,3 @@ function sumChecker(){
     return sum;
 }
 console.log(sum)
-
-
